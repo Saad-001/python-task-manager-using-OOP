@@ -110,7 +110,7 @@ while True :
                 print(f"Completed time - {tsk._completed_time}")
                 print("")
             task_num = int(input("Enter Task No: "))
-            if task_num <= len(task_list) and task_list[task_num-1]._task_done == False :
+            if task_num <= len(task_list) :
                 new_task = input("Enter New Task ")
                 print("")
                 task_list[task_num-1].update_task(new_task)
